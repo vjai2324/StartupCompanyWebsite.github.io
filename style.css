@@ -1,0 +1,951 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+/* Optional CSS styles to customize the preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    /* Change as needed */
+    z-index: 9999;
+}
+
+
+#preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* units of our prowess css part */
+.icon1 {
+    /* border: 1px solid #fff; */
+    width: 60px;
+    height: 60px;
+    margin-left: 43%;
+    background: url(images/web-icons.webp);
+}
+
+.icon2 {
+    /* border: 1px solid #fff; */
+    width: 60px;
+    height: 60px;
+    margin-left: 43%;
+    /* background shorthand property to move the location of image logo */
+    background: url(images/web-icons.webp) no-repeat -64px 0px;
+}
+
+.icon3 {
+    /* border: 1px solid #fff; */
+    width: 60px;
+    height: 60px;
+    margin-left: 43%;
+    background: url(images/web-icons.webp) no-repeat -130px 0px;
+}
+
+.icon4 {
+    /* border: 1px solid #fff; */
+    width: 60px;
+    height: 60px;
+    margin-left: 43%;
+    background: url(images/web-icons.webp) no-repeat -198px 0px;
+}
+
+.icon5 {
+    /* border: 1px solid #fff; */
+    width: 60px;
+    height: 60px;
+    margin-left: 43%;
+    background: url(images/web-icons.webp) no-repeat -266px 0px;
+}
+
+/* working mechanism css part */
+.icon6 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat 0px -180px;
+}
+
+.icon7 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat -55px -180px;
+}
+
+.icon8 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat -105px -180px;
+}
+
+.icon9 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat -160px -180px;
+}
+
+.icon10 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat -215px -180px;
+}
+
+.icon11 {
+    /* border:  2px solid greenyellow; */
+    width: 50px;
+    height: 60px;
+    background: url(images/web-icons.webp) no-repeat -270px -180px;
+}
+
+.icon12 {
+    width: 70px;
+    height: 55px;
+    background: url(images/web-icons.webp) no-repeat -435px 0px;
+    position: relative;
+    top: 57px;
+    right: 80px;
+}
+
+.icon13 {
+    width: 70px;
+    height: 50px;
+    background: url(images/web-icons.webp) no-repeat -365px 0px;
+    position: relative;
+    top: 57px;
+    right: 80px;
+
+}
+
+.icon14 {
+    width: 65px;
+    height: 75px;
+    background: url(images/web-icons.webp) no-repeat -405px -160px;
+    margin-left: 43%;
+    /* position: relative; */
+    /* left: 150px; */
+
+}
+
+.icon15 {
+    width: 70px;
+    height: 75px;
+    background: url(images/web-icons.webp) no-repeat -330px -160px;
+    margin-left: 40%;
+    /* position: relative; */
+    /* left: 150px; */
+
+}
+
+
+/* Services section css part */
+.product-icon {
+    width: 108px;
+    height: 115px;
+    border-radius: 50%;
+    background: url(images/web-icons.webp) no-repeat 0px -65px;
+
+}
+
+.talent-icon {
+    width: 108px;
+    height: 115px;
+    border-radius: 50%;
+    background: url(images/web-icons.webp) no-repeat -110px -65px;
+
+}
+
+.training-icon {
+    width: 108px;
+    height: 115px;
+    border-radius: 50%;
+    background: url(images/web-icons.webp) no-repeat -220px -65px;
+}
+
+/* portfolio logo effect css part */
+
+.portfolio-logo a {
+    /* margin-right: 15px; */
+    filter: grayscale(100%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.portfolio-logo a:hover {
+    filter: grayscale(0%);
+    transition: 0.9ms;
+    opacity: 0.9;
+}
+
+
+/* profile cards css part */
+
+.card {
+    transform: scale(0.9);
+    box-shadow: 3px 3px 3px 3px rgb(146, 145, 145);
+}
+
+.card:hover {
+    transform: scale(1);
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px #ff4644;
+    box-shadow: 50px 50px 50px 50px #def3f2 inset;
+
+}
+
+.hover-effect:hover {
+    color: #ff4644 !important;
+}
+
+
+/* contact us css part */
+.contact-btn a {
+    border: none;
+    text-decoration: none;
+    font-size: large;
+    color: #fff;
+    border-radius: 50px;
+
+    /* background-color: #ff4644; */
+    padding: 10px 30px 10px 30px;
+}
+
+.contact-btn a:hover {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+
+/* Footer part css */
+.social-icon {
+    margin-top: 10%;
+}
+
+.social-icon a {
+    background-color: #fff;
+    font-size: 18px;
+    color: #909090;
+    border-radius: 100%;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 10px 15px;
+    width: 200px;
+    /* height: 42px; */
+    /* padding: 11px 0; */
+    margin-right: 12px;
+
+}
+
+.social-icon a:hover {
+    background-color: #ff4644;
+    color: #fff;
+    transition: 0.5ms;
+
+}
+
+.list2 ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+
+.list2 ul li::before {
+    content: "\25A0";
+    /*Unicode for representing square bullets with hexadecimal value and written after backslash*/
+    color: #ff4644;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list2 ul li a:hover {
+    color: #ff4644;
+    transition: 0.5ms;
+}
+
+.list3 ul {
+    margin-top: -20px;
+}
+
+.list3 ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.list3 ul li::before {
+    content: "\25A0";
+    /*Unicode for representing square bullets with hexadecimal value and written after backslash*/
+    color: #ff4644;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.list3 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list3 ul li a:hover {
+    color: #ff4644;
+    transition: 0.5ms;
+}
+
+.email a {
+    color: black;
+
+}
+
+.email::after {
+    /* representing after property to underline the email address */
+    content: '';
+    background: #ff4644;
+    display: block;
+    width: 155px;
+    height: 2px;
+    border-radius: 5px;
+}
+
+/* contact us form css properties  */
+.contact_form {
+    box-shadow: 0px 0px 10px 0px #d8d8d8;
+    background-color: #fff;
+    border-radius: 6px;
+    /* padding: 60px 58px; */
+    /* width: 80%; */
+}
+
+/* career page css properties */
+#together a:hover {
+    background-color: #ff4644;
+    color: rgb(242, 242, 81) !important;
+}
+
+
+
+.Send_Now:hover {
+    transform: scale(1.1);
+    color: yellow !important;
+}
+
+
+/* effective communication blog content css and html */
+#jj a:hover {
+    color: black !important;
+}
+
+/* #fixedShareDiv {
+    position: absolute;
+    top: 118px;
+    z-index: 1;
+    margin-left: 150px;
+} */
+
+.social-icon2 a {
+    background-color: #ff4644;
+
+    /* font-size: 18px; */
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 5px 12px;
+    /* width: 200px; */
+    margin: auto;
+    /* height: 42px; */
+    /* padding: 11px 0; */
+    /* margin-right: 12px; */
+
+}
+
+.social-icon2 a:hover {
+    background-color: #def3f2;
+    color: #ff4644;
+    transition: 1s;
+
+}
+
+.general2 {
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+
+.general2:hover {
+    color: #ff4644 !important;
+}
+
+.social-icon3 a {
+    background-color: #fff;
+
+    /* font-size: 18px; */
+    color: #ff4644;
+    /* border-radius: 100%; */
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 10px 25px;
+    /* width: 200px; */
+    margin: auto;
+    /* height: 42px; */
+    /* padding: 11px 0; */
+    /* margin-right: 12px; */
+
+}
+
+.social-icon3 a:hover {
+    background-color: #ff4644;
+    color: #fff;
+    transition: 0.9ms;
+
+}
+
+.step::after {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #ff4644;
+    border-radius: 100%;
+    animation-name: ripple;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.65, 0, 0.34, 1);
+    z-index: -1;
+    border-radius: 100%;
+}
+
+/* Slick Slider CSS Code In Index Page */
+
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+        transform: scale3d(0.75, 0.75, 1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale3d(2, 2, 1);
+    }
+}
+
+/* Custom Scroll Bar CSS */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ff4644;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff4670;
+}
+
+/*Customizing Google search bar color  */
+.gsc-search-button-v2 {
+    /* border: #ff4644; */
+    background-color: #ff4644 !important;
+}
+
+
+/* google api language css so that we can remove text of google */
+#google_translate_element {
+    height: 26px !important;
+    overflow: hidden !important;
+}
+
+/* Adding dark mode using CSS */
+
+.dark-icon {
+    width: 30px;
+}
+
+body.light-mode {
+    background-color: white;
+}
+
+body.dark-mode {
+    background-color: #2b2b2b !important;
+    /* color: #fff !important; */
+
+    /* .preloader-dark{
+        background-color: #2b2b2b !important;
+    } */
+
+    .gsib_a{
+        color: #192d35 !important;
+    }
+
+    /* navebar dark code */
+    .sticky-top {
+        background-color: #2b2b2b !important;
+        border: 2px solid white;
+    }
+
+    .text-gray-800 {
+        color: #fff !important;
+    }
+
+    .text-gray-800:hover {
+        color: #ff4644 !important;
+    }
+
+    .form-dark {
+        background-color: #6a6a6a !important;
+        color: white !important;
+    }
+
+    /* auto-type dark code */
+    .image-dark {
+        /* background: url(images/red-black.gif) !important; */
+        background: #2b2b2b !important;
+        color: white !important;
+        /* background-repeat: no-repeat !important; */
+        /* background-size: cover !important; */
+    }
+
+    /* caps video */
+    .text-dark-mode {
+        color: white !important;
+    }
+
+    .text-dark-mode:hover {
+        color: #ff4644 !important;
+    }
+
+    .text-dark-mode2 {
+        color: white !important;
+    }
+
+
+    .contact-footer-dark {
+
+        background: rgb(255, 70, 68) !important;
+        background: linear-gradient(180deg, rgba(255, 70, 68, 1) 39%, rgba(43, 43, 43, 1) 39%) !important;
+        color: #fff !important;
+
+
+    }
+
+    .accordion-button,
+    .accordion-body {
+        background-color: #6a6a6a !important;
+        color: #fff !important;
+    }
+
+    .cookie-dark {
+        background-color: #6a6a6a !important;
+        color: #fff;
+    }
+
+    .burger {
+        background-color: #fff;
+    }
+
+    .chatbot-dark{
+        background-color: #6a6a6a;
+    }
+
+
+
+}
+
+.chatbot-toggler {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ff4644;
+    /* background: #ff4670; */
+    transition: all 0.2s ease;
+}
+
+body.show-chatbot .chatbot-toggler {
+    transform: rotate(90deg);
+}
+
+.chatbot-toggler span {
+    color: #fff;
+    position: absolute;
+}
+
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child {
+    opacity: 0;
+}
+
+body.show-chatbot .chatbot-toggler span:last-child {
+    opacity: 1;
+}
+
+.chatbot {
+    position: fixed;
+    z-index: 3;
+    height: 430px;
+    /* min-height: 400px; */
+    right: 35px;
+    bottom: 90px;
+    width: 420px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.5);
+    transform-origin: bottom right;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+        0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s ease;
+}
+
+/* .chatbot-dark{
+    background: #2b2b2b;
+} */
+
+
+
+body.show-chatbot .chatbot {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+
+.chatbot header {
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #ff4644;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot header span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    display: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+header h2 {
+    font-size: 1.4rem;
+}
+
+.chatbot .chatbox {
+    overflow-y: auto;
+    height: 300px; 
+    padding: 30px 20px 100px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 25px;
+}
+
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+
+.chatbox .chat {
+    display: flex;
+    list-style: none;
+}
+
+.chatbox .outgoing {
+    margin: 20px 0;
+    justify-content: flex-end;
+}
+
+.chatbox .incoming span {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    line-height: 32px;
+    align-self: flex-end;
+    background: #ff4644;
+    border-radius: 4px;
+    margin: 0 10px 7px 0;
+}
+
+.chatbox .chat p {
+   
+    white-space: pre-wrap;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px;
+    max-width: 75%;
+   
+    color: #fff;
+    font-size: 0.95rem;
+    background: #ff4644;
+}
+
+.chatbox .incoming p {
+    border-radius: 10px 10px 10px 0;
+}
+
+.chatbox .chat p.error {
+    color: #721c24;
+    background: #f8d7da;
+}
+
+.chatbox .incoming p {
+    color: #000;
+    background: #f2f2f2;
+}
+
+.chatbot .chat-input {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 3px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input textarea {
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    max-height: 180px;
+    padding: 15px 15px 15px 0;
+    font-size: 0.95rem;
+}
+
+.chat-input span {
+    align-self: flex-end;
+    color: #ff4644;
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    font-size: 1.35rem;
+}
+
+.chat-input textarea:valid~span {
+    visibility: visible;
+}
+
+/* whatsapp chat code */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+#sticky_icon{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+/* Marquee effect on services page */
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 29px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 14s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(90%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@media (max-width: 490px) {
+    .chatbot-toggler {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .chatbot {
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .chatbot .chatbox {
+        height: 90%;
+        padding: 25px 15px 100px;
+    }
+
+    .chatbot .chat-input {
+        padding: 5px 15px;
+    }
+
+    .chatbot header span {
+        display: block;
+    }
+
+   
+}
+
+
+
+
+/* :root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+ } */
+
+
+
+
+
+
+/* Example: Style from medium breakpoint and down */
+@media (max-width:995px) {
+
+    /* nav {
+        position: sticky !important;
+    } */
+
+    .offcanvas-body ul {
+        display: block !important;
+        list-style: circle !important;
+    }
+
+    .ventures-content {
+        margin-top: 10% !important;
+    }
+
+    .desktop-footer {
+        display: none;
+    }
+
+    .footer-accordion {
+        border-bottom: 1px solid #dcdcdc;
+        margin: 0 0 20px;
+        padding: 0;
+        display: grid !important;
+    }
+
+    #compre {
+        background-color: #192d35 !important;
+    }
+
+    #about-nav {
+        height: 1000px !important;
+    }
+
+    .icon12 {
+        position: static;
+    }
+
+    .icon13 {
+        position: static;
+    }
+
+    .recent-blogs {
+        display: none;
+    }
+
+    .client-contact {
+        margin-top: 5% !important;
+    }
+
+    #fixedShareDiv {
+        display: none !important;
+    }
+
+    /* .paddingQuery{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    } */
+
+    #cookies {
+        width: 70% !important;
+    }
+
+    #back-to-top {
+        display: none !important;
+    }
+
+}
+
+@media (min-width:995px) {
+    .accordion {
+        display: none;
+    }
+}
